@@ -22,11 +22,6 @@ if (has("termguicolors"))
   set termguicolors
 endif
 
-" Enable mouse if possible
-if has('mouse')
-    set mouse=a
-endif
-
 "----------------------------------------------
 " General settings
 "----------------------------------------------
@@ -34,3 +29,8 @@ set encoding=utf-8
 set noswapfile                    " disable swapfile usage
 set title                         " let vim set the terminal title
 syntax enable
+
+" Enable mouse if possible
+if has('mouse')
+    set mouse=a
+endif
